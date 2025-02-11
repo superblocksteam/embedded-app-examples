@@ -1,0 +1,14 @@
+{
+  "name": "embed-examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:react": "cd react && npm run start:all",
+    "start:angular": "cd angular && npm run start:all",
+    "start:typescript": "cd typescript && npm run start:all"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

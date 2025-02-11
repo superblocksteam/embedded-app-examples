@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "outDir": "./public/js",
+    "rootDir": "./src",
+    "target": "es2016",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  }
+}

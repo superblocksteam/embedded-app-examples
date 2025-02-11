@@ -1,0 +1,23 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel serve ./public/index.html --open --port=3000",
+    "build": "parcel build ./public/index.html",
+    "start:server": "node ../server/index.js",
+    "start:all": "concurrently \"npm run start:server\" \"npm run start\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "parcel": "^2.12.0",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "@superblocksteam/embed": "^0.0.0"
+  }
+}
